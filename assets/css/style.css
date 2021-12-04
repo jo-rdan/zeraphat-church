@@ -558,12 +558,12 @@ p {
   line-height: 52px;
   background: -webkit-linear-gradient(
     left,
-    #43cae9 0%,
-    #38f9d7 50%,
-    #43cae9 100%
+    #1077d8 0%,
+    #38f9d7 20%,
+    #1077d8 100%
   );
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+  background: -o-linear-gradient(left, #1077d8 0%, #38f9d7 50%, #1077d8 100%);
+  background: linear-gradient(to right, #1077d8 0%, #38f9d7 80%, #1077d8 100%);
   background-size: 200% auto;
   color: #fff;
   border: 0;
@@ -666,12 +666,12 @@ p {
   line-height: 52px;
   background: -webkit-linear-gradient(
     left,
-    #43cae9 0%,
+    #1077d8 0%,
     #38f9d7 50%,
-    #43cae9 100%
+    #1077d8 100%
   );
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+  background: -o-linear-gradient(left, #1077d8 0%, #38f9d7 50%, #1077d8 100%);
+  background: linear-gradient(to right, #1077d8 0%, #38f9d7 50%, #1077d8 100%);
   background-size: 200% auto;
   color: #fff;
   border: 0;
@@ -754,10 +754,71 @@ p {
        3.HEADER css 
 ===========================*/
 /*===== NAVBAR EIGHT =====*/
+.w3-content {
+  position: relative;
+  margin-top: 0em;
+}
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-btn,
+.w3-button {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.w3-disabled,
+.w3-btn:disabled,
+.w3-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.3;
+}
+.w3-disabled *,
+:disabled * {
+  pointer-events: none;
+}
+.w3-bar-block .w3-dropdown-hover .w3-button,
+.w3-bar-block .w3-dropdown-click .w3-button {
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+}
+.w3-button:hover {
+  color: #000 !important;
+  background-color: #ccc !important;
+}
+
+.w3-content button {
+  position: absolute;
+  top: 32%;
+}
+
+.w3-display-right {
+  right: 0;
+}
+.w3-display-left {
+  left: 0;
+}
 .navbar-area {
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+  background: -webkit-linear-gradient(left, #1077d8 0%, #619acf 100%);
+  background: -o-linear-gradient(left, #1077d8 0%, #619acf 100%);
+  background: linear-gradient(to right, #1077d8 0%, #619acf 100%);
+  /* background: #1077d8; */
   padding: 10px 0;
   position: absolute;
   top: 0;
@@ -1345,7 +1406,7 @@ p {
 }
 .sidebar-right .sidebar-content .sidebar-social ul li a {
   font-size: 32px;
-  color: #38f9d7;
+  color: #1077d8;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -2002,9 +2063,9 @@ p {
   left: 0;
   width: 100%;
   height: 4px;
-  background: -webkit-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 100%);
+  background: -webkit-linear-gradient(left, #1077d8 0%, #38f9d7 100%);
+  background: -o-linear-gradient(left, #1077d8 0%, #38f9d7 100%);
+  background: linear-gradient(to right, #1077d8 0%, #38f9d7 100%);
   z-index: -1;
   opacity: 0;
   -webkit-transition: all 0.3s ease-out 0s;
@@ -2016,7 +2077,7 @@ p {
 }
 .portfolio-menu ul li:hover,
 .portfolio-menu ul li.active {
-  color: #38f9d7;
+  color: #1077d8;
 }
 .portfolio-menu ul li:hover::before,
 .portfolio-menu ul li.active::before {
@@ -2076,7 +2137,7 @@ p {
   .portfolio-icon
   a {
   font-size: 48px;
-  color: #38f9d7;
+  color: #1077d8;
   position: relative;
   z-index: 5;
   line-height: 50px;
@@ -2096,7 +2157,7 @@ p {
 }
 .single-portfolio .portfolio-text .portfolio-title a {
   color: #121212;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 30px;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
@@ -2477,12 +2538,12 @@ p {
 .call-action-3 {
   background: -webkit-linear-gradient(
     left,
-    #43cae9 0%,
+    #1077d8 0%,
     #38f9d7 50%,
-    #43cae9 100%
+    #1077d8 100%
   );
-  background: -o-linear-gradient(left, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
-  background: linear-gradient(to right, #43cae9 0%, #38f9d7 50%, #43cae9 100%);
+  background: -o-linear-gradient(left, #1077d8 0%, #38f9d7 50%, #1077d8 100%);
+  background: linear-gradient(to right, #1077d8 0%, #38f9d7 50%, #1077d8 100%);
 }
 .call-action-3 .call-action-content .action-title {
   color: #fff;
@@ -2591,7 +2652,7 @@ p {
 }
 .testimonial-active-2 .slick-dots li.slick-active button,
 .testimonial-active .slick-dots li.slick-active button {
-  background-color: #38f9d7;
+  background-color: #1077d8;
 }
 
 .single-testimonial-4 {
@@ -2931,7 +2992,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .footer-area .footer-widget .footer-link ul li a:hover {
-  color: #38f9d7;
+  color: #1077d8;
 }
 .footer-area .footer-copyright {
   padding-top: 13px;
@@ -2957,7 +3018,7 @@ p {
   transition: all 0.3s ease-out 0s;
 }
 .footer-area .footer-copyright .social li a:hover {
-  color: #38f9d7;
+  color: #1077d8;
 }
 .footer-area.footer-dark {
   background-color: #121212;
